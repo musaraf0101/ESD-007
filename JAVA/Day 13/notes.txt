@@ -1,0 +1,14 @@
+//polymophisam........
+--------------------------------------------
+same entity (method or operator or object) can perform different operation in different scenario
+
+type of polymophisam
+    -> method over loading => same method but different parameter
+    -> method over writing => same method give different output (etkanave irikkire methodkku mela innoru method eluthure => rewriting )
+    -> operater overloading => ex: a=5;
+                                    b=10;
+                                    sout(a+b)//output 15
+                                    sout(a+"10")//510
+
+Abstraction
+------------------------------------------------

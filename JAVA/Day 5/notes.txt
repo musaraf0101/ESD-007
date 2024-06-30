@@ -1,0 +1,49 @@
+Java Operators
+--------------------
+
+1) Arithmetic Operators
+2) Assignment Operators
+3) Comparision Operators
+4) Logical Operators
+5) Bitwise Operators
+
+
+1) Arithmetic Operators
+    *Arithmetic Operators are used to perform common meths operations
+--------------------------
++ => Add
+- => Sub
+* => Mul
+/ => Div
+% => Reminder
+++ => Increment
+-- => Decrement
+
+2) Assignment Operators
+    *Assignment Operators are used to Assign values to variable
+------------------------------
+=
++=
+-=
+*=
+/=
+%=
+^=
+
+3) Comparision Operators
+    *Comparision operation used compare two variable
+    it's return true/false
+------------------------------
+>
+<
+>=
+<=
+==
+!=
+
+4) Logical operations
+    *it's used to check two or more condition
+---------------------------------------------
+&& => AND -> both condition true it will return true
+|| => OR -> one condition true it will return true
+! => NOT -> Reverse the result

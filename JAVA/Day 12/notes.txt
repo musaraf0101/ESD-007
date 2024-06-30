@@ -1,0 +1,7 @@
+OOP
+    -> Inheritance
+        * parent child concept
+         child can access parent attibute
+    -> Encapulation
+    -> Polymophisam
+    -> Abstraction

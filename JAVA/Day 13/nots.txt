@@ -1,0 +1,22 @@
+type of error
+  =>throwable
+    -> error
+    -> excepiton
+        i) runtime excepiton
+            ->arithmetic excepiton
+            -> nullpoint excepiton
+            -> arrayindexoutofbound excepiton
+        ii) IO excepiton
+
+
+    try{
+      int [] a = new int [5];
+      a[6] = 10; // what we do
+    }
+    catch(Exception e){
+        System.out.println(e.toString()); //any error found show me function
+    }
+    finally{
+        System.out.println("alwasy working");// what ever error comming it's not consider it's alwasy working 
+    }
+    System.out.println("i am here");

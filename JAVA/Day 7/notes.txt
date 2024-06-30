@@ -1,0 +1,7 @@
+Day 7
+-----------------------------------------------------------------
+
+Loop 
+    for Loop (check -> first.java file for  practical example)
+    while Loop (check -> third.java file for  practical example)
+    do-while loop (check -> fourth.java file for  practical example)

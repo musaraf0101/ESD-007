@@ -1,0 +1,28 @@
+class & object
+------------------------------
+
+class is create a object
+object is a blue print of class
+
+Object-oriented programming is a core of Java Programming, which is used for designing a program using classes and objects.
+
+----------------
+Constructors
+----------------
+//special method for creating a object
+-> class name & Constructors name must be same name
+-> Constructors must be a public
+
+--------------------------
+acess modifiyers
+--------------------------
+1.public
+2.protected
+3.private
+4.default
+
+-----------------------
+non-acess modifiyers
+-----------------------
+1.final (once assign a value cannot change)
+ -> other programming language used const but java use final key word
