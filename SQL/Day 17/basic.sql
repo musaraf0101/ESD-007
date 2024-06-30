@@ -60,3 +60,8 @@ SELECT fullName,age FROM student;
 */
 SELECT fullName as name from student;
 SELECT fullName as name , nic as uniqNumber from student;
+
+--filter using  values
+--  filter upto 22 age 
+select * from student where age >22;
+
