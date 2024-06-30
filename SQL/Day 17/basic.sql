@@ -18,7 +18,7 @@ gender varchar(20),
 age INT
 );
 
---view detail table
+--describe of table (View colum)
 describe student;
 
 --drop a table 
@@ -35,3 +35,13 @@ alter table student change age age varchar(10);
 
 --rename table name
 alter table student rename to student_info;
+
+
+--insert into valus
+INSERT INTO student(fullName,nic,gender,age)
+values('musaraf','2002','male','22'),
+        ('jaseema','1981','female','43'),
+        ('sahan','2002','male','22');
+
+--view all data from table 
+SELECT * FROM student;
