@@ -22,7 +22,7 @@ age INT
 describe student;
 
 --drop a table 
-drop student;
+drop table student;
 
 --add new column exits table
 alter table student add column z_score double;
@@ -43,5 +43,20 @@ values('musaraf','2002','male','22'),
         ('jaseema','1981','female','43'),
         ('sahan','2002','male','22');
 
+
+
 --view all data from table 
 SELECT * FROM student;
+
+
+--view a specific column
+SELECT fullName FROM student;
+
+--view two specific column
+SELECT fullName,age FROM student;
+
+/*
+* database  name fullname but user want view that column name name
+*/
+SELECT fullName as name from student;
+SELECT fullName as name , nic as uniqNumber from student;
