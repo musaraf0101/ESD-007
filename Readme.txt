@@ -1,6 +1,6 @@
 Author : musaraf
 Email : nowsathmusaraf037@gmail.com
-instuctor : shawn arunjith
+instructor : shawn arunjith
 Course : ESD
 
 Course outline
