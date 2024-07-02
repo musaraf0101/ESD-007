@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Day 3</title>
 </head>
 <body style="background-color: bisque;">
     <h1>welcome</h1>
+    <!----Table-->
     <table border="1" style="width: 100%; text-align:center; padding:10px; border-radius:5px;">
         <tr>
             <th>name</th>
-            <th>age</th>
-            <th>gender</th>
+            <th colspan="2">age&gender</th>
         </tr>
         <tr>
-            <td>shah</td>
+            <td rowspan="2">shah</td>
             <td>20</td>
             <td>male</td>
         </tr>
         <tr>
-            <td>shah</td>
+            
             <td>20</td>
             <td>male</td>
         </tr>
@@ -29,5 +29,50 @@
             <td>male</td>
         </tr>
     </table>
+<!--list-->
+    <ol style="list-style-type: lower-roman;" start="8">
+        <li>dog</li>
+        <li>cat</li>
+        <li>fish</li>
+        <li>lion</li>
+        <ul>
+            <li>lion</li>
+            <li>lion</li>
+        </ul>
+    </ol>
+    <ul style="list-style-type: circle;">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+<!--video-->
+    <video width="300px" height="200px" controls autoplay loop muted>
+        <source src="/Front end development/img & video/Always_my_mind____----(480p).mp4" type="video/mp4">
+    </video>
+<!--audio-->
+    <audio controls muted>
+        <source src="/Front end development/img & video/New_English_Ringtone___Roney_Music(128k)_(1).mp3" type="audio/mp3">
+    </audio>
+<!--submission form-->
+    <form>
+        <label>Name</label>
+        <input type="text">
+        
+        <label>password</label>
+        <input type="text">
+        <br>
+        <br>
+        <input type="radio" value="male">Male
+        <input type="radio" value="female">Female
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="file">
+        <h4><input type="checkbox">i agree privacy and policy</h4>
+        <input type="button" value="Submit">
+    </form>
 </body>
 </html>
