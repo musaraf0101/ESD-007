@@ -1,3 +1,15 @@
 body{
     background-color: antiquewhite;
 }
+#heading{
+    color:blueviolet
+}
+.para{
+    color:brown;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
