@@ -12,5 +12,21 @@ body{
     height: 100px;
     width: 100px;
     background-color: black;
+    opacity: 0.8;
+    border: darkblue 3px dashed;
+    margin: 10px;
     
+}
+
+.outer{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    padding: 40px;
+}
+
+.inner{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
 }
