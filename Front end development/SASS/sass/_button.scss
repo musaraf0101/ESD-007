@@ -1,0 +1,27 @@
+@import "_variables";
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-primary{
+background-color: $bg-primary-color;
+}
+.btn-success{
+    background-color: $bg-succss-color;
+}
+.btn-danger{
+    background-color: $bg-danger-color;
+}
+
+.btn-primary:hover{
+    background-color: $bg-primary-hover-color;
+    }
+.btn-success:hover{
+        background-color: $bg-succss-hover-color;
+    }
+.btn-danger-:hover{
+        background-color: $bg-danger-hover-color;
+    }

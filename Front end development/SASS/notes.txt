@@ -1,0 +1,5 @@
+sass mean syntactically awesome style sheet
+extended version of css
+
+connect node manager => npm init -y
+intall sass packge => npm i sass -D

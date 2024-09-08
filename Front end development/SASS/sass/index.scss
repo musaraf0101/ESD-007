@@ -1,0 +1,18 @@
+@import "_variables";
+@import "_button";
+
+p{
+    color:$primary-color;
+}
+nav{
+    padding: 15px;
+    background-color: $dark;
+    margin: 5px;
+
+    a{
+        text-decoration: none;
+        display: inline;
+        color: $light;
+        padding: 5px 25px;
+    }
+}
