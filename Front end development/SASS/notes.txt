@@ -3,3 +3,5 @@ extended version of css
 
 connect node manager => npm init -y
 intall sass packge => npm i sass -D
+
+getting out put like system.out.print this lan use @debug

@@ -1,3 +1,51 @@
+.text-primary {
+  color: #007bff;
+}
+
+.bg-key {
+  background-color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.bg-key {
+  background-color: #6c757d;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.bg-key {
+  background-color: #17a2b8;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.bg-key {
+  background-color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.bg-key {
+  background-color: #6c757d;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.bg-key {
+  background-color: #17a2b8;
+}
+
 .btn {
   border: none;
   padding: 10px 20px;
@@ -17,18 +65,6 @@
   background-color: #dc3545;
 }
 
-.btn-primary:hover {
-  background-color: #6e9ac9;
-}
-
-.btn-success:hover {
-  background-color: #6fa67c;
-}
-
-.btn-danger-:hover {
-  background-color: #6f373c;
-}
-
 p {
   color: #0000FF;
 }
@@ -43,6 +79,25 @@ nav a {
   display: inline;
   color: #fff;
   padding: 5px 25px;
+}
+nav ahover {
+  background-color: aqua;
+}
+nav a:nth-child(2) {
+  color: antiquewhite;
+}
+
+.para {
+  color: #000;
+  font-size: 2rem;
+}
+
+.d1 {
+  height: 50px;
+  width: 100vw;
+  margin: 20px 0px;
+  background-color: #000;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

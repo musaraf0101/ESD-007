@@ -1,0 +1,16 @@
+$base-font:1rem;
+$medium-font:$base-font*2;
+$large-font:$base-font*4;
+
+//using math functions in sass
+@use "sass:math";
+
+@debug math.max(10px,4px,32px);
+@debug math.ceil(4.9);
+@debug math.floor(4.2);
+@debug math.sqrt(100);
+@debug math.abs(-25);
+@debug math.pow(4,2);
+@debug math.is-unitless(10);
+@debug math.unit(10px);
+@debug math.div(25px,3px);
