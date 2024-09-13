@@ -1,0 +1,11 @@
+create a angular project
+-------------------------------
+ng new app name
+
+create no standalone project
+--------------------------------
+ng new appname --no-standalone
+
+run the project
+--------------------------------
+ng serve
