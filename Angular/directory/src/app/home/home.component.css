@@ -1,0 +1,9 @@
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+.cred{
+    font-size: 50px;
+    color: rgb(8, 121, 220);
+}

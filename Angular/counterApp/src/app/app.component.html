@@ -1,0 +1,21 @@
+<ul>
+    <li *ngFor="let movies of movies">{{ movies }}</li>
+</ul>
+
+<!--index-->
+<ul>
+    <li *ngFor="let fruits of fruits; let i=index">{{ i+1 }}{{ fruits }}</li>
+</ul>
+
+<!--first $ last variable-->
+<ul>
+    <li *ngFor="let fruits of fruits;let isFirst=first;let isLast=last">
+        <strong *ngIf="isFirst">first:</strong>
+        <strong *ngIf="isLast">last:</strong>
+        {{ fruits }}</li>
+</ul>
+
+
+
+<router-outlet></router-outlet>
+<app-counter></app-counter>

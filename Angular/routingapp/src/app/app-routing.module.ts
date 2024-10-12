@@ -2,20 +2,20 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 import { ContactComponent } from './contact/contact.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { BlogComponent } from './blog/blog.component';
-import { EventComponent } from './event/event.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:"home",pathMatch:'full'},// default url normaly work home page coding must need give pathMach:'full' para coding
-  {path:'home',component:HomeComponent},
-  {path:'about',component:AboutComponent,children:[
-    {path:'blog',component:BlogComponent},
-    {path:'event',component:EventComponent}
-  ]},
-  {path:'contact',component:ContactComponent},
-  {path:'**',component:NotFoundComponent}
+  // {path:"",redirectTo:'home',pathMatch:"full"},
+  // {path:'home',component:HomeComponent},
+  // {path:'about',component:AboutComponent,children:[{path:'blog',component:BlogComponent}]},
+  // {path:'contact',component:ContactComponent},
+  { path: 'home', loadChildren: () => import('./module/home/home.module').then(m => m.HomeModule) },
+  { path: 'about', loadChildren: () => import('./module/about/about.module').then(m => m.AboutModule) },
+  { path: 'contact', loadChildren: () => import('./module/contact/contact.module').then(m => m.ContactModule) },
+  { path: 'notfound', loadChildren: () => import('./module/notfound/notfound.module').then(m => m.NotfoundModule) }
+  // {path:"**",component:NotfoundComponent}
 ];
 
 @NgModule({

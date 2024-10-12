@@ -1,0 +1,19 @@
+
+<h1>{{ fullname }}</h1>
+<input type="text" [(ngModel)]="fullname">
+
+<h2>{{ title }}</h2>
+{{ getname() }}
+
+
+<!--property Binding-->
+<img [src]="imageUrl" [alt]="imageAlt">
+
+<h1 [innerHTML]="title"></h1>
+<p [textContent]="user.name"></p>
+
+<!--event binding-->
+<h1>clicked {{ clickCount }} time</h1>
+<button (click)="clickMe()">click me</button>
+
+<router-outlet></router-outlet>

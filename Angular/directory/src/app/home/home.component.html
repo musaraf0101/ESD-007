@@ -1,0 +1,29 @@
+<h3>Hi</h3>
+<!-- ngif use normal if-else condition -->
+<div>
+  <button (click)="trigger()">click</button>
+  <div id="box" *ngIf="state"></div>
+</div>
+
+<!-- ngfor -->
+<ul>
+  <li *ngFor="let subject of data; index as count">
+    {{ count + 1 }}-{{ subject }}
+  </li>
+</ul>
+
+<!-- ngswitch -->
+<div [ngSwitch]="day">
+  <h1 *ngSwitchCase="1">Monday</h1>
+  <h1 *ngSwitchCase="2">tuesday</h1>
+  <h1 *ngSwitchCase="3">wenesday</h1>
+  <h1 *ngSwitchDefault>noday</h1>
+</div>
+<!-- ngstyle -->
+<h1 [ngStyle]="{ color: redcolor, 'font-size': size }">Hi</h1>
+
+<!-- ngclass -->
+<p [ngClass]="{ cred: isActive }">day</p>
+
+<input [(ngModel)]="inputtext" />
+<h2>{{ inputtext }}</h2>

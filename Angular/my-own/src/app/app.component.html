@@ -1,8 +1,11 @@
 <!--interpolation-->
 <h1>{{ message }}</h1>
+<h2>student name is {{ studentName }}</h2>
+<h2>my son name is {{ studentName }}</h2>
 
 <!--property binding-->
 <img [src]="imageUrl" width="500px" height="300px">
+
 
 <!--event binding-->
 <br>
@@ -17,3 +20,5 @@
 
 <input type="text" #mesage>
 <button (click)="showmessage(mesage.value)">click</button>
+
+<router-outlet></router-outlet>

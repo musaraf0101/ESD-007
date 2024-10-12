@@ -9,3 +9,15 @@ ng new appname --no-standalone
 run the project
 --------------------------------
 ng serve
+
+componant creation
+------------------------------
+ng g c componentName
+
+create moduls
+--------------------------------
+ng g m modulName --route pathName --module app.module(main file)
+
+create service
+-----------------
+ng g s serviceName
